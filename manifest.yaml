@@ -9,7 +9,7 @@ builder:
 spec:
   operator: jax
   image: jax-demo
-  command: "env && sleep 2"
+  command: "env && sleep 200"
   tensorboard:
     enabled: true
   types:
@@ -19,12 +19,8 @@ spec:
         cpus: 1
         ramRatio: 1
         shmSizeGB: 0
-        accelerators:
-          gpu:
-            count: 0
-            type: gpu
-            product: Tesla-V100-SXM3-32GB
-
-
-
-
+        #accelerators:
+        #  gpu:
+        #    count: 0
+        #    type: gpu
+        #    product: Tesla-V100-SXM3-32GB
