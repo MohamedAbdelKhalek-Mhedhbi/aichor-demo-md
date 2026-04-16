@@ -9,7 +9,7 @@ builder:
 spec:
   operator: jax 
   image: jax-demo
-  command: "env && sleep 60"
+  command: "env && sleep 3600"
   engineName: deleteme-2429
   tensorboard:
     enabled: true
