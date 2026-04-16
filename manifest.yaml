@@ -2,7 +2,7 @@ kind: AIchorManifest
 apiVersion: 0.2.2  
  
 builder:   
-  image: pytorch-demo 
+  image: pytorch-demo  
   context: pytorch-demo # folder
   dockerfile: ./Dockerfile
 
