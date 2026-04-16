@@ -3,7 +3,7 @@ apiVersion: 0.2.2
  
 builder:   
   image: pytorch-demo
-  context: pytorch-demo # folder
+  context: pytorch-demo # folder 
   dockerfile: ./Dockerfile
 
 spec:
