@@ -1,13 +1,13 @@
 kind: AIchorManifest
 apiVersion: 0.2.2
 
-builder:
+builder: 
   image: pytorch-demo
   context: pytorch-demo # folder
   dockerfile: ./Dockerfile
 
 spec:
-  operator: jax
+  operator: jax 
   image: jax-demo
   command: "env && sleep 60"
   engineName: deleteme-2429
