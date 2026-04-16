@@ -9,8 +9,8 @@ builder:
 spec:
   operator: jax
   image: jax-demo
-  command: "env && sleep 5400"
-  engineName: main-gcp-dev-v2
+  command: "env && sleep 60"
+  engineName: deleteme-2429
   tensorboard:
     enabled: true
   types:
