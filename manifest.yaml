@@ -10,7 +10,6 @@ spec:
   operator: pytorch 
   image: image
   command: "env && sleep 3600"
-  engineName: deleteme-2429
   tensorboard:
     enabled: true
   types:
