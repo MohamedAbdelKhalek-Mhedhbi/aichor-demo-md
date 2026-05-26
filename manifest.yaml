@@ -6,7 +6,7 @@ builder:
   context: pytorch-demo # folder
   dockerfile: ./Dockerfile
 
-spec:
+spec: 
   operator: pytorch 
   image: image
   command: "env && sleep 3600"
